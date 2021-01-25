@@ -23,10 +23,10 @@ def visualize_classifier(classifier, X, y):
     plt.figure()
 
     # Choose a color scheme for the plot 
-    plt.pcolormesh(x_vals, y_vals, output, cmap=plt.cm.gray)
+    plt.pcolormesh(x_vals, y_vals, output, cmap=plt.get_cmap('Greys'))
 
     # Overlay the training points on the plot 
-    plt.scatter(X[:, 0], X[:, 1], c=y, s=75, edgecolors='black', linewidth=1, cmap=plt.cm.Paired)
+    plt.scatter(X[:, 0], X[:, 1], c=y, s=75, edgecolors='black', linewidth=1, cmap=plt.get_cmap('Pastel1'))
 
     # Specify the boundaries of the plot
     plt.xlim(x_vals.min(), x_vals.max())
