@@ -15,7 +15,7 @@ def build_arg_parser():
     parser = argparse.ArgumentParser(description='Classify data using \
             Ensemble Learning techniques')
     parser.add_argument('--classifier-type', dest='classifier_type', 
-            required=True, choices=['rf', 'erf'], help="Type of classifier \
+            choices=['rf', 'erf'], help="Type of classifier \
                     to use; can be either 'rf' or 'erf'")
     return parser
 
