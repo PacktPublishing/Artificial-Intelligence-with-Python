@@ -6,7 +6,7 @@ This is the code repository for [Artificial Intelligence with Python](https://ww
 ## About the Book
 During the course of this book, you will find out how to make informed decisions about what algorithms to use in a given context. Starting from the basics of Artificial Intelligence, you will learn how to develop various building blocks using different data mining techniques. You will see how to implement different algorithms to get the best possible results, and will understand how to apply them to real-world scenarios. If you want to add an intelligence layer to any application that’s based on images, text, stock market, or some other form of data, this exciting book on Artificial Intelligence will definitely be your guide!
 
-##Instructions and Navigation
+## Instructions and Navigation
 All of the code is organized into folders. Each folder starts with a number followed by the application name. For example, Chapter02.
 
 
