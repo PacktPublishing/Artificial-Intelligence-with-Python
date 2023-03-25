@@ -49,7 +49,7 @@ for i, item in enumerate(test_datapoint):
     if item.isdigit():
         test_datapoint_encoded[i] = int(test_datapoint[i])
     else:
-        test_datapoint_encoded[i] = int(label_encoder[count].transform(test_datapoint[i]))
+        test_datapoint_encoded[i] = int(label_encoder[count].transform([test_datapoint[i]]))
         count = count + 1 
 
 test_datapoint_encoded = np.array(test_datapoint_encoded)
